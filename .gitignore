@@ -7,6 +7,5 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
-*.spec
 *.log
 .config/
