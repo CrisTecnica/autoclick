@@ -1,0 +1,17 @@
+AutoClick - Desktop Macro Recorder
+====================================
+Version: 1.0.0
+License: MIT
+Homepage: https://github.com/CrisTecnica/autoclick
+
+AutoClick records and plays back mouse and keyboard macros
+with adjustable speed, infinite loop, and global hotkeys.
+
+Global Hotkeys:
+  F9  - Start recording
+  F10 - Stop recording
+  F11 - Play macro
+  F12 - Stop everything
+  Esc - Emergency stop
+
+Launch: autoclick

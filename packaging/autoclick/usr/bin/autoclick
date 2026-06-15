@@ -1,0 +1,3 @@
+#!/bin/bash
+# AutoClick launcher
+exec /usr/lib/autoclick/autoclick.sh "$@"

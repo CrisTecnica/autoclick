@@ -1,0 +1,11 @@
+#!/bin/bash
+# AutoClick pre-removal script
+set -e
+
+APP_DIR="/usr/lib/autoclick"
+
+if [ -d "$APP_DIR/venv" ]; then
+    rm -rf "$APP_DIR/venv"
+fi
+
+exit 0

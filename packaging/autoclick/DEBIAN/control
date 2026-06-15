@@ -1,0 +1,22 @@
+Package: autoclick
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.10), python3-venv, python3-pip, libxcb-cursor0, libxkbcommon-x11-0
+Maintainer: CrisTecnica <cristecnica@users.noreply.github.com>
+Description: AutoClick - Desktop macro recorder
+ AutoClick is a desktop macro recorder and player for Linux (X11).
+ It captures mouse and keyboard events globally and replays them
+ with adjustable speed, infinite loop support, and global hotkeys.
+ .
+ Features:
+  - Mouse and keyboard event recording
+  - Adjustable playback speed (0.1x to 10x)
+  - Infinite loop mode
+  - Global hotkeys (F9-F12, Esc)
+  - Event editor with reorder/delete/duplicate
+  - JSON save/load
+  - Dark theme UI
+  - System tray support
+Homepage: https://github.com/CrisTecnica/autoclick

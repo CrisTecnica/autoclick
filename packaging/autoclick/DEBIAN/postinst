@@ -1,0 +1,24 @@
+#!/bin/bash
+# AutoClick post-installation script
+set -e
+
+APP_DIR="/usr/lib/autoclick"
+
+echo "AutoClick: Configurando ambiente Python..."
+
+# Create virtual environment if it doesn't exist
+if [ ! -f "$APP_DIR/venv/bin/python3" ]; then
+    python3 -m venv "$APP_DIR/venv" --system-site-packages 2>/dev/null || python3 -m venv "$APP_DIR/venv"
+fi
+
+# Install dependencies
+"$APP_DIR/venv/bin/pip" install --quiet PySide6 pynput 2>/dev/null || true
+
+# Update icon cache
+gtk-update-icon-cache -f -t /usr/share/icons/hicolor/ 2>/dev/null || true
+
+# Update desktop database
+update-desktop-database 2>/dev/null || true
+
+echo "AutoClick: Instalação concluída!"
+echo "Execute com: autoclick"
