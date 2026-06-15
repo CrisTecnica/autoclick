@@ -1,9 +1,12 @@
 [Desktop Entry]
 Name=AutoClick
 Comment=Gravador e Reprodutor de Macro
+GenericName=Macro Recorder
 Exec=/opt/autoclick/autoclick.sh
-Icon=/opt/autoclick/autoclick.png
+Icon=/opt/autoclick/autoclick.svg
 Terminal=false
 Type=Application
 Categories=Utility;Accessibility;
 StartupNotify=true
+Keywords=macro;recorder;automation;click;
+
