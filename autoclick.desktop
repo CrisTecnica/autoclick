@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=AutoClick
+Comment=Gravador e Reprodutor de Macro
+Exec=/opt/autoclick/autoclick.sh
+Icon=/opt/autoclick/autoclick.png
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+StartupNotify=true
